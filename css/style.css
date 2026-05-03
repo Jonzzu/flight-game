@@ -39,6 +39,10 @@
     display: none;
 }
 
+.float-left {
+    float: left;
+}
+
 /* app specific */
 html, body {
     margin: 0;
@@ -176,6 +180,15 @@ main {
 
 #weather td:first-child, #weather td:nth-child(2) {
     border-right: var(--grey) 1px solid;
+}
+
+.page-footer {
+    text-align: center;
+}
+
+.lead-img {
+    width: 100%;
+    margin: 0 0 1rem 0;
 }
 
 @media screen and (min-width: 769px) {
