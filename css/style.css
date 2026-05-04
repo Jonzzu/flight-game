@@ -54,6 +54,7 @@ html, body {
     padding: 0;
     font-family: Verdana, geneva, tahoma, sans-serif;
     background-color: var(--white);
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -145,6 +146,7 @@ main {
     filter: drop-shadow(0px 0px 30px #333);
     transform: rotate(340deg);
     line-height: 1rem;
+    z-index: 999;
 }
 
 .goal h2, .goal p {
@@ -157,7 +159,7 @@ main {
     background-color: rgb(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
-    z-index: 99999;
+    z-index: 9999;
 }
 
 #player-form {
