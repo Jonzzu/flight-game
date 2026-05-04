@@ -12,6 +12,7 @@ map.setView([60, 24], 7);
 // global variables
 const apiUrl = 'http://127.0.0.1:5000/';
 const startLoc = 'EFHK';
+const globalGoals = [];
 
 // icons
 const blueIcon = L.divIcon({className: 'blue-icon'});
@@ -23,7 +24,6 @@ document.querySelector('#player-form').addEventListener('submit', function (evt)
     const playerName = document.querySelector('#player-input').value;
     document.querySelector('#player-modal').classList.add('hide');
     gameSetup(`${apiUrl}newgame?player=${playerName}&start=${startLoc}`);
-    }
 });
 
 // function to fetch data from API
