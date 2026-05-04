@@ -10,7 +10,7 @@ class Game:
         self.location = []
         self.goals = []
 
-        if id==0:
+        if id == 0:
             # new game
             # Create new game id
             letters = string.ascii_lowercase + string.ascii_uppercase + string.digits

@@ -211,6 +211,19 @@ main {
         width: 50%;
         height: initial;
     }
+}
 
+/* Leaflet icons */
+.blue-icon {
+    background-color: #2474ff;
 
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 05);
+}
+
+.green-icon {
+    background-color: #27ba35;
+
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 05);
 }
